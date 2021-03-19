@@ -3,6 +3,5 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(second  lab1.2.cpp)
-add_executable(first lab2.cpp)
-add_executable(third lab3.cpp)
+add_executable(main main.cpp)
+add_executable(colors  colors.cpp lab5.cpp)
